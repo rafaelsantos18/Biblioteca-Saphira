@@ -1,12 +1,22 @@
 package br.com.saphira.beans;
 
 public class Livro {
+	
+	private int idLivro;
 	private String nome;
 	private Genero genero;
 	private String autor;
 	private String editora;
 	private int paginas;
+	private boolean disponibilidade;
 	
+	
+	public boolean isDisponibilidade() {
+		return disponibilidade;
+	}
+	public void setDisponibilidade(boolean disponibilidade) {
+		this.disponibilidade = disponibilidade;
+	}
 	public String getNome() {
 		return nome;
 	}
@@ -38,6 +48,12 @@ public class Livro {
 		this.paginas = paginas;
 	}
 	
+	public int getIdLivro() {
+		return idLivro;
+	}
+	public void setIdLivro(int idLivro) {
+		this.idLivro = idLivro;
+	}
 	
 	
 }

@@ -1,9 +1,12 @@
 package br.com.saphira.beans;
 
+import java.util.List;
+
 public class Cliente extends Pessoa{
 	
 	private String idCliente;
 	private String senha;
+	private List<Livro> livrosAlugados;
 	
 	public String getIdCliente() {
 		return idCliente;
@@ -16,6 +19,12 @@ public class Cliente extends Pessoa{
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+	public List<Livro> getLivrosAlugados() {
+		return livrosAlugados;
+	}
+	public void setLivrosAlugados(List<Livro> livrosAlugados) {
+		this.livrosAlugados = livrosAlugados;
 	}
 
 }
