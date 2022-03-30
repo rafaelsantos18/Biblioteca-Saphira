@@ -1,1 +1,3 @@
-# Biblioteca-Saphira
+# 📚 Biblioteca Saphira
+- Projeto para estudo
+- Em produção
