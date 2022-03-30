@@ -5,7 +5,7 @@ import java.util.List;
 public class Cliente extends Pessoa{
 	
 	private String idCliente;
-	private String senha;
+	private String senhaSistema;
 	private List<Livro> livrosAlugados;
 	
 	public String getIdCliente() {
@@ -14,17 +14,17 @@ public class Cliente extends Pessoa{
 	public void setIdCliente(String idCliente) {
 		this.idCliente = idCliente;
 	}
-	public String getSenha() {
-		return senha;
-	}
-	public void setSenha(String senha) {
-		this.senha = senha;
-	}
 	public List<Livro> getLivrosAlugados() {
 		return livrosAlugados;
 	}
 	public void setLivrosAlugados(List<Livro> livrosAlugados) {
 		this.livrosAlugados = livrosAlugados;
+	}
+	public String getSenhaSistema() {
+		return senhaSistema;
+	}
+	public void setSenhaSistema(String senhaSistema) {
+		this.senhaSistema = senhaSistema;
 	}
 
 }

@@ -2,7 +2,8 @@ package br.com.saphira.beans;
 
 public class Funcionario {
 	private String idFuncionario;
-	private String senha;
+	private String senhaSistema;
+	private double salario;
 	
 	public String getIdFuncionario() {
 		return idFuncionario;
@@ -10,11 +11,17 @@ public class Funcionario {
 	public void setIdFuncionario(String idFuncionario) {
 		this.idFuncionario = idFuncionario;
 	}
-	public String getSenha() {
-		return senha;
+	public double getSalario() {
+		return salario;
 	}
-	public void setSenha(String senha) {
-		this.senha = senha;
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+	public String getSenhaSistema() {
+		return senhaSistema;
+	}
+	public void setSenhaSistema(String senhaSistema) {
+		this.senhaSistema = senhaSistema;
 	}
 	
 	
